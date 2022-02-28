@@ -19,3 +19,17 @@ export enum WorkoutDifficulty {
   Intermediate = 'Intermediate',
   Advanced = 'Advanced',
 }
+
+export enum Services {
+  ExercisePlanner = 'Exercise Planner',
+  MealPlanner = 'Meal Planner',
+  HydrationTracker = 'Hydration Tracker',
+  MeditationPortal = 'Meditation Portal',
+}
+
+export interface Card {
+  id: string;
+  name: Services;
+  latestDetails: JSX.Element;
+  img: string;
+}

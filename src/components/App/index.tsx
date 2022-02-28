@@ -9,7 +9,7 @@ function App() {
       <Nav />
       <Mainboard />
 
-      <WorkoutDisplay />
+      {/* <WorkoutDisplay /> */}
     </div>
   );
 }
