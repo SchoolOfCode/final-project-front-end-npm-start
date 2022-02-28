@@ -1,6 +1,6 @@
 import Mainboard from '../Mainboard';
 import Nav from '../Nav';
-import WorkoutDisplay from '../WorkoutDisplayCard';
+
 import './App.scss';
 
 function App() {
@@ -8,8 +8,6 @@ function App() {
     <div className="app">
       <Nav />
       <Mainboard />
-
-      {/* <WorkoutDisplay /> */}
     </div>
   );
 }
